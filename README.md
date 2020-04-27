@@ -2,18 +2,16 @@
 
 ## Project setup
 ```
-pnpm install
+npm install
+
 ```
 
-### Compiles and hot-reloads for development
+### Compiles for desktop
 ```
-pnpm run serve
-```
-
-### Compiles and minifies for production
-```
-pnpm run build
+npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Compiles for phone
+```
+VUE_APP_LAYOUT_PHONE=1 npm run build
+```
